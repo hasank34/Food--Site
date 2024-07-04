@@ -1,0 +1,390 @@
+body{
+    
+    height: 200vh;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 7%;
+    margin: 2rem 7%;
+    border-radius: 30rem;
+    box-shadow: 0px 0px 17px -2px rgba(0, 0, 0.75);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+
+
+}
+
+.logo img{
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-left: 300px;
+    
+
+}
+
+
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0e0e0e;
+    border-bottom: 0.1rem solid transparent;
+}
+
+.navbar .active,
+.navbar a:hover{
+    border-color: red;
+}
+
+.header .buttons button{
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 20px;
+    border: solid transparent;
+    
+    padding-left: 20px;
+    font-size: 25px;
+   
+}
+
+.buttons{
+    display: flex;
+    gap: 12px;
+    padding-left: 20px;
+    
+    
+}
+
+.mn-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    
+    
+}
+
+.ic{
+    width: 30%;
+    border-radius: 30px;
+    border: solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(137, 103, 72);
+    box-shadow: 0px 0px 17px -2px rgba(0, 0, 0.75);
+    cursor: pointer;
+}
+
+.ic h1{
+    color: #e2e2e2;
+    font-size: 45px;
+    letter-spacing: 8px;
+    
+}
+
+.anasayfa{
+    min-height: 100vh;
+    background: url(./image/menu-2.jpg) no-repeat;
+    background-size: cover;
+    width: 1320px;
+    background-position: center;
+    margin-top: -14.5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 500px;
+   
+    
+}
+
+section{
+    padding: 3.5rem;
+}
+.anasayfa .content{
+    max-width: 60rem;
+
+}
+
+.anasayfa .content h3{
+    font-size: 4rem;
+    color: #fff;
+    margin-top: -80px;
+}
+
+.content p{
+    color: #fff;
+    margin-top: -80px;
+    
+}
+
+.content span{
+    color: #e2e2e2;
+    text-decoration: none;
+    font-weight:bold;
+    background-color: rgb(117, 3, 3);
+    border-radius: 5px;
+}
+
+.anasayfa .content{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #fff;
+    padding-left: 65px;
+    
+
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 2.75rem;
+    border-radius: 30rem;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: rgb(117, 3, 3);
+    text-decoration: none;
+    
+}
+
+.mutfaklar{
+    margin-top: 50px;
+    padding: 40px;
+    width: 90%;
+    display: flex;
+    gap: 60px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    background-color: rgb(137, 103, 72);
+    margin: 50px;
+    box-shadow: 0px 0px 17px -2px rgba(0, 0, 0.75);
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+
+.mutfak{
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 17px -2px rgba(0, 0, 0.75);
+    transition: all 0.3s;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+.mutfak:hover{
+    scale: 1.18;
+    cursor: pointer;
+}
+.mutfak img{
+    width: 120px;
+    border-radius: 80px;
+    
+
+}
+
+
+.mutfak h4{
+    color: #0e0e0e;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+}
+
+.container-video video{
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+
+.special-one{
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(137, 103, 72);
+
+}
+
+.special-one span{
+    color: #e2e2e2;
+    text-decoration: none;
+    font-weight:bold;
+    background-color: rgb(117, 3, 3);
+    border-radius: 5px;
+}
+
+.special-one h1{
+    color: #fff;
+}
+
+.menu{
+    display: flex;
+    background-color:rgb(137, 103, 72);
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    
+}
+
+
+
+.menu-special{
+    border: solid 2px;
+    width: 28%;
+    border-radius: 30px;
+    margin-left: 60px;
+    background-color: rgb(199, 173, 135);
+    box-shadow: 0px 0px 17px -2px rgba(0, 0, 0.75);
+    
+}
+
+.menu-special h1{
+    padding-left: 150px;
+    margin-top: 50px;
+    color: black;
+}
+
+.menu-special img{
+    width: 300px;
+    padding-left: 95px;
+    transition: all 0.3s;
+    margin-top: -40px;
+    
+    
+}
+
+.menu-special img:hover{
+    scale: 1.18;
+    cursor: pointer;
+}
+
+
+.menu-special h2{
+    padding-left: 220px;
+    margin-top: -20px;
+    color: black;
+    margin-bottom: -10px;
+}
+
+.menu-special span{
+    padding-left: 200px;
+    color: black;
+}
+
+.menu-special span i{
+    padding-left: 150px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.map{
+    margin-top: 195px;
+    padding-left: 20px;
+    
+   
+}
+
+.iletisim{
+    display: flex;
+    border: solid transparent;
+    
+}
+
+.inputbox{
+    
+    margin: 10px;
+    margin-top: 57px;
+    gap: 40px;
+    font-size: 50px;
+    border: solid transparent;
+    width: 900px;
+    height: 650px;
+    background-color:rgb(137, 103, 72);
+    
+}
+
+.inputbox input{
+    font-size: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    margin-top: 50px;
+    
+}
+
+
+.inputbox i{
+    font-size: 35px;
+    
+
+    
+}
+
+.inputic{
+    
+    width: 400px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    margin: 300px;
+    margin-top: 120px;
+    background-color: rgb(199, 173, 135);
+    
+}
+
+.inputic a{
+    width: 80px;
+    margin: 80px;
+}
+
+.mn-menu2{
+   margin-top: 5px;
+    
+
+}
+
+.ic2{
+    width: 70%;
+    border-radius: 30px;
+    border: solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(137, 103, 72);
+    box-shadow: 0px 0px 17px -2px rgba(0, 0, 0.75);
+    margin-top: 50px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
